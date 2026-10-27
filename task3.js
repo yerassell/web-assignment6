@@ -1,0 +1,9 @@
+$(".fadein").click(function(){
+    $("img").fadeIn();
+});
+$(".fadeout").click(function(){
+    $("img").fadeOut();
+});
+$(".fadetoggle").click(function(){
+    $("img").fadeToggle();
+});

@@ -1,0 +1,9 @@
+$(".hide").click(function(){
+    $("p.paragraph").hide();
+});
+$(".show").click(function(){
+    $("p.paragraph").show();
+});
+$(".toggle").click(function(){
+    $("p.paragraph").toggle();
+});
